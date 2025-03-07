@@ -33,7 +33,8 @@ export default function ChatBox({ chatBoxSettings, setChatBoxSettings }: ChatBox
     if (typeof window !== 'undefined') {
       const fullHost = getHost()
       const host = fullHost.replace('http://', '').replace('https://', '')
-      
+
+      console.log("Full Host:", fullHost, "Host:", host);
       const ws_uri = `${fullHost.includes('https') ? 'wss:' : 'ws:'}//${host}/gptresearcher/ws`;
       const newSocket = new WebSocket(ws_uri);
       setSocket(newSocket);
