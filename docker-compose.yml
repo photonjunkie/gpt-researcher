@@ -5,7 +5,7 @@ services:
     build: ./
     environment: 
       OPENAI_API_KEY: ${OPENAI_API_KEY}
-      TAVILY_API_KEY: ${TAVILY_API_KEY}
+      TAVILY_API_KEY: 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
       LANGCHAIN_API_KEY: ${LANGCHAIN_API_KEY}
       LOGGING_LEVEL: INFO
     volumes:
