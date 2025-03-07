@@ -42,7 +42,7 @@ export const useWebSocket = (
     if (!socket && typeof window !== 'undefined') {
       const fullHost = getHost();
       const host = fullHost.replace('http://', '').replace('https://', '');
-      const ws_uri = `${fullHost.includes('https') ? 'wss:' : 'ws:'}//${host}/ws`;
+      const ws_uri = `${fullHost.includes('https') ? 'wss:' : 'ws:'}//${host}/gptresearcher/ws`;
 
       const newSocket = new WebSocket(ws_uri);
       setSocket(newSocket);
