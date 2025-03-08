@@ -149,9 +149,13 @@ footer p {
 }
 
 #reportContainer h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+#reportContainer h2,
+#reportContainer h3 {
+    font-size: 20px;
 }
 
 .tags-input {
