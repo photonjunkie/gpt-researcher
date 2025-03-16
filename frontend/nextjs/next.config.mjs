@@ -2,10 +2,11 @@
 const nextConfig = {
   basePath: '/gptresearcher',
   assetPrefix: '/gptresearcher/',
+  output: 'standalone',
   images: {
     remotePatterns: [
       { hostname: 'www.google.com' },
-      { hostname: 'www.google-analytics.com' }
+      { hostname: 'google-analytics.com' }
     ],
   },
 };
