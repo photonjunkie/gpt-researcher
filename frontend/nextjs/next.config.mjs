@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/gptresearcher',
-  assetPrefix: '/gptresearcher/',
+  // basePath: '/gptresearcher',
+  // assetPrefix: '/gptresearcher',
   output: 'standalone',
   trailingSlash: true,
   images: {
