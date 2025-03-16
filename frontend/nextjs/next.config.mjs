@@ -3,11 +3,13 @@ const nextConfig = {
   basePath: '/gptresearcher',
   assetPrefix: '/gptresearcher/',
   output: 'standalone',
+  trailingSlash: true,
   images: {
     remotePatterns: [
       { hostname: 'www.google.com' },
-      { hostname: 'google-analytics.com' }
+      { hostname: 'www.google-analytics.com' }
     ],
+    unoptimized: true,
   },
 };
 
